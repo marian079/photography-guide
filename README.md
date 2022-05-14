@@ -1,1 +1,1 @@
-# readinglist
+# photo tips
