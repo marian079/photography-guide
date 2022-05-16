@@ -1,23 +1,18 @@
 body{
     display:flex;
     flex-direction: column;
-    align-content: center;
-    justify-content: center;
     background-color: #1F2937;
     height: 100vh;
+    margin: 0;
 }
 
 .header{
     display: flex;
     flex-direction: column;
     background-color: #1F2937;
-     margin:0px;
-     padding: 1em 13em;
-    align-items: space-between;
-
-
     display: flex;
-    height: 100vh;
+    justify-items: flex-end;
+    margin: 0px 90px 0px 90px;
 }
 a{
  text-decoration: none;
@@ -43,7 +38,7 @@ ul{
 .firstline{
     display: flex;
     
-    padding-top: 4px;
+    padding-top: 10px;
    justify-content: space-between;
    align-items: baseline;
   
@@ -52,6 +47,8 @@ ul{
 
 
 .title{
+    margin-top: 0;
+    margin-bottom: 0;
     color: #F9FAF8;
     font-weight: 800;
     font-size: 38px;
@@ -60,24 +57,37 @@ ul{
 .ph{
     
    height: 200px;
+   width: auto;
 }
 .mid{
+    padding:60px 0px 60px 0px;
     display: flex;
-    justify-content: space-between;
+    justify-content:baseline;
+    gap: 40px;
+    
 }
 .right{
     display: flex;
     flex-shrink: 0;
     width: 50%;
+    margin-bottom: 0;
 
 }
 .left{
     display: flex;
     flex-direction: column;
-     gap:10px;
+     gap:20px;
 
 }
 .text{
     font-size: 18px;
     color: #e5e7eb;
+}
+.button{
+    background-color:#3882f6;
+    color: #e5e7eb;
+    height: 25px;
+    width: 90px;
+    border: #3882f6;
+    border-radius: 7px;
 }
