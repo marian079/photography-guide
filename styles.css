@@ -172,6 +172,7 @@ ul{
 }
 .message .text{
     color: #e5e7eb;
+    display: flex;
 }
 .button2{
    
