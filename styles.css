@@ -1,7 +1,7 @@
 body{
     display:flex;
     flex-direction: column;
-    background-color: #1F2937;
+    background-color:#1F2937;
     height: 100vh;
     margin: 0;
 }
@@ -13,6 +13,7 @@ body{
     display: flex;
     justify-items: flex-end;
     margin: 0px 90px 0px 90px;
+    
 }
 a{
  text-decoration: none;
@@ -148,4 +149,33 @@ ul{
     font-family: 'Dosis', sans-serif;
     font-weight: 800;
     font-size: 25px;
+}
+.signin{
+    background-color: #F9FAF8;
+}
+.signin .title{
+    font-size: 20px;
+    font-weight: 600;
+    font-family: 'Prompt', sans-serif;
+}
+.full-message{
+    background-color: #3882f6;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    margin:100px 80px 100px 80px;
+    padding: 30px 50px 30px 50px; 
+    align-items: center;
+    border-radius: 9px;
+}
+.message .text{
+    color: #e5e7eb;
+}
+.button2{
+   
+    color: #3882f6;
+    height: 25px;
+    width: 90px;
+    border: #3882f6;
+    border-radius: 7px;
 }
