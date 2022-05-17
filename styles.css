@@ -34,11 +34,12 @@ ul{
     list-style-type: none;
     display: flex;
     gap: 1.5em;
+    font-size: 18px;
 }
 .firstline{
     display: flex;
-    
-    padding-top: 10px;
+    margin-top: 0;
+
    justify-content: space-between;
    align-items: baseline;
   
@@ -55,7 +56,8 @@ ul{
     display: flex;
 }
 .ph{
-        height: 210px;
+    display: flex;
+        height: 200px;
         width: auto;
 }
 .mid{
@@ -67,6 +69,7 @@ ul{
 }
 .right{
     display: flex;
+    width: 50%;
 }
 .left{
     display: flex;
@@ -110,8 +113,8 @@ ul{
 .box1, .box2, .box3, .box4{
     display: flex;
  
-    height: 100px;
-    width: 100px;
+    height: 150px;
+    width: 150px;
     border: 5px solid #3882f6;
     border-radius: 10px;
     background-color: #3882f6;
@@ -122,4 +125,27 @@ ul{
     width: 100%;
     border-radius: 7px;
    
+}
+.quote{
+    display: flex;
+    background-color: #e5e7eb;
+    flex-direction: column;
+    padding: 50px 100px 50px 100px;
+}
+.quote-part{
+    font-size: 36px;
+    font-style: italic;
+  font-family: 'Times New Roman', Times, serif;
+    display: flex;
+        flex-direction: column;
+    align-items: center;
+    color: #1F2937;
+    
+}
+.name{
+    display: flex;
+    justify-content: flex-end;
+    font-family: 'Dosis', sans-serif;
+    font-weight: 800;
+    font-size: 25px;
 }
