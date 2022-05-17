@@ -64,7 +64,7 @@ ul{
 .mid{
     padding:100px 0px 100px 0px;
     display: flex;
-    justify-content:baseline;
+    justify-content: space-between;
     gap: 40px;
     
 }
@@ -107,9 +107,10 @@ ul{
 .boxes{
     display: flex;
     flex-wrap: wrap;
-    gap:20px;
+    gap:40px;
     flex: 1;
     justify-content: center;
+    margin-bottom: 80px;
 }
 .box1, .box2, .box3, .box4{
     display: flex;
