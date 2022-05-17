@@ -173,9 +173,17 @@ ul{
 }
 .button2{
    
-    color: #3882f6;
+    background-color:#3882f6;
+    color: #e5e7eb;
     height: 25px;
     width: 90px;
-    border: #3882f6;
+    border:1px solid #F9FAF8;
     border-radius: 7px;
+}
+.footer .text{
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
 }
